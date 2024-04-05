@@ -1,7 +1,5 @@
 # Chat with PDFs 📚💬
 
-![Chat with PDFs Logo](images/chat_with_pdfs_logo.png)
-
 Welcome to Chat with PDFs! This is a fun and interactive Streamlit app that allows you to chat with PDF documents using the power of language models. Engage in conversations, ask questions, and explore the contents of your PDFs in an exciting new way!
 
 ## Features 🌟
@@ -28,13 +26,16 @@ To get started with Chat with PDFs, follow these simple steps:
 
 ```bash
     git clone https://github.com/YourUsername/Chat-with-PDFs.git
-
+```
 2. **Install Dependencies**:
+   ```bash
     pip install -r requirements.txt
+   ```
 
 3. **Run the Application**:
+   ```bash
     streamlit run app.py
-```
+   ```
 
 ## Usage 🛠️
 
@@ -51,5 +52,7 @@ Contributions, issues, and feature requests are welcome! This is a personal fun 
 - [Hugging Face](https://huggingface.co/) for the powerful language models.
 - [LangChain](https://python.langchain.com/) for the text processing and retrieval capabilities.
 
-![Example](?raw=true)
-![Example](?raw=true)
+![Example](https://github.com/skadoosh4/PDF_Chat/blob/main/images/pdf_1.png?raw=true)
+![Example](https://github.com/skadoosh4/PDF_Chat/blob/main/images/pdf_2.png?raw=true)
+![Example](https://github.com/skadoosh4/PDF_Chat/blob/main/images/pdf_3.png?raw=true)
+
