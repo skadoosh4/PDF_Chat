@@ -1,3 +1,15 @@
+---
+title: Chat PDF
+emoji: 📚
+colorFrom: green
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.33.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Chat with PDFs 📚💬
 
 Welcome to Chat with PDFs! This is a fun and interactive Streamlit app that allows you to chat with PDF documents using the power of language models. Engage in conversations, ask questions, and explore the contents of your PDFs in an exciting new way!
