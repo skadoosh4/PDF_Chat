@@ -25,7 +25,7 @@ def get_pdf_text(pdf_docs):
 @st.cache_resource
 def vector_store(text_chunks):
     embeddings = SentenceTransformerEmbeddings(model_name = "sentence-transformers/all-MiniLM-L6-v2")
-    vectorstore = Chroma.from_texts(texts=text_chunks , embedding= embeddings , persist_directory="/Users/sid/Documents/Computer Vision/MedGPT/data")
+    vectorstore = Chroma.from_texts(texts=text_chunks , embedding= embeddings , persist_directory="/data")
     return vectorstore
 
 @st.cache_resource
